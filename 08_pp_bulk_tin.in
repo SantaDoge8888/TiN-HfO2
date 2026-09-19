@@ -1,0 +1,14 @@
+&INPUTPP
+  prefix='bulk_tin_strained',
+  outdir='./tmp/bulk_tin/',
+  plot_num=11,
+  filplot='outputs/bulk_tin_strained.pot.tmp',
+/
+&PLOT
+  nfile=1,
+  filepp(1)='outputs/bulk_tin_strained.pot.tmp',
+  weight(1)=1.0,
+  iflag=3,
+  output_format=6,
+  fileout='outputs/bulk_tin_potential.cube',
+/

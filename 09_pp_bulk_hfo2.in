@@ -1,0 +1,14 @@
+&INPUTPP
+  prefix='bulk_hfo2',
+  outdir='./tmp/bulk_hfo2/',
+  plot_num=11,
+  filplot='outputs/bulk_hfo2.pot.tmp',
+/
+&PLOT
+  nfile=1,
+  filepp(1)='outputs/bulk_hfo2.pot.tmp',
+  weight(1)=1.0,
+  iflag=3,
+  output_format=6,
+  fileout='outputs/bulk_hfo2_potential.cube',
+/

@@ -1,0 +1,10 @@
+&PROJWFC
+  prefix='tinhfo2',
+  outdir='./tmp/interface/',
+  Emin=-15.0,
+  Emax=15.0,
+  DeltaE=0.02,
+  ngauss=0,
+  degauss=0.01,
+  filpdos='outputs/interface_pdos',
+/

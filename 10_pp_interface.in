@@ -1,0 +1,14 @@
+&INPUTPP
+  prefix='tinhfo2',
+  outdir='./tmp/interface/',
+  plot_num=11,
+  filplot='outputs/tinhfo2.pot.tmp',
+/
+&PLOT
+  nfile=1,
+  filepp(1)='outputs/tinhfo2.pot.tmp',
+  weight(1)=1.0,
+  iflag=3,
+  output_format=6,
+  fileout='outputs/interface_potential.cube',
+/

@@ -1,0 +1,100 @@
+{
+  "model": "Ti-terminated TiN(111) / O-terminated monoclinic HfO2(001), periodic double interface",
+  "nat": 162,
+  "tin_atoms": 90,
+  "hfo2_atoms": 72,
+  "cell_A": [
+    15.78,
+    5.29,
+    24.28973724145591
+  ],
+  "tin_span_A": 9.881927,
+  "hfo2_span_A": 10.307810241455908,
+  "hfo2_start_A": 11.931926999999998,
+  "interface_gap_A": 2.05,
+  "central_tin_atom_ids": [
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60
+  ],
+  "central_hfo2_atom_ids": [
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138
+  ],
+  "potential_regions_A": {
+    "tin": [
+      3.5409634999999997,
+      6.340963499999999
+    ],
+    "hfo2": [
+      15.385832120727951,
+      18.78583212072795
+    ]
+  },
+  "natural_tin_surface_A": [
+    15.128549583486183,
+    5.240683304684609
+  ],
+  "tin_inplane_strain_percent": [
+    4.3060996225634085,
+    0.941035594944406
+  ],
+  "hfo2_unstrained_inplane_A": [
+    15.343499999999999,
+    5.1682
+  ],
+  "hfo2_inplane_strain_percent": [
+    2.8448528692931907,
+    2.3567199411787643
+  ],
+  "notes": "Coordinates are a transparent literature-anchored model, not the unpublished interface coordinates of PRB 74 195304."
+}
